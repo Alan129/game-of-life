@@ -36,6 +36,11 @@ public class GameController {
 
         return showGridScreen(universe);
     }
+    
+    public void method1()
+    {
+        System.out.println("hello");
+    }
 
     @RequestMapping("/next")
     public ModelAndView nextGeneration(@RequestParam("rows") final int rows,
